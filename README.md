@@ -10,6 +10,34 @@ This website will be made by keeping the below mentioned objectives in mind.
 -•	To build a blog section where each users will have separate profile.
 -•	BMI Calculator and Weight Tracker.
 
+# Screenshots
+- Home
+<img src = "https://raw.githubusercontent.com/arfin97/BestFit/master/screenshots/1.png?token=AYCaTf46T9aXX51mWEMRlGIQqwVVQrnQks5cvbK8wA%3D%3D">
+
+- Register
+<img src = "https://raw.githubusercontent.com/arfin97/BestFit/master/screenshots/0.%20Register.png?token=AYCaTcp1ueyxzjoVQt4RWimMCg1ut_6Bks5cvbN8wA%3D%3D">
+
+- Create Post
+<img src = "https://raw.githubusercontent.com/arfin97/BestFit/master/screenshots/2%20create.png?token=AYCaTczrEXUNfa0_cGgQCTD5Dra3opTXks5cvbLAwA%3D%3D">
+
+- Post View
+<img src = "https://raw.githubusercontent.com/arfin97/BestFit/master/screenshots/3%20Post%20View.png?token=AYCaTYu495VfnopTisPnqTMbfm_JLLsqks5cvbLCwA%3D%3D">
+
+- Delete Post
+<img src = "https://raw.githubusercontent.com/arfin97/BestFit/master/screenshots/4%20Delete.png?token=AYCaTXgDyQE2DlZTlNxw_3oQhKTWsSnZks5cvbLGwA%3D%3D">
+
+- Edit Profile
+<img src = "https://raw.githubusercontent.com/arfin97/BestFit/master/screenshots/5.%20Profile.png?token=AYCaTXreS6oVpFmHjYzzEiON57JegvLFks5cvbLIwA%3D%3D">
+
+- Tools: BMI
+<img src = "https://raw.githubusercontent.com/arfin97/BestFit/master/screenshots/6.%20BMI.png?token=AYCaTYJC_nxMePBg3zDLfwQ1cMSbEGwgks5cvbLKwA%3D%3D">
+
+- Tools: BMR
+<img src = "https://raw.githubusercontent.com/arfin97/BestFit/master/screenshots/7.%20BMR.png?token=AYCaTXrndj8Og5Vszh1S60KSARF41onkks5cvbLNwA%3D%3D">
+
+- Logout
+<img src = "https://raw.githubusercontent.com/arfin97/BestFit/master/screenshots/8.%20Logout.png?token=AYCaTR-4LB0AYLWfSrsEbzk8YRtbaaeWks5cvbLRwA%3D%3D">
+
 # Description
 The first steps to build this site will be to get accustomed with the technology I am going to use. First I will get my hands on HTML and CSS. After that I will learn some bootstrap and will make a static website to test my skills. Then I will proceed to JavaScript. For the backend I will use Django framework which is based in python. So learning Django will take a good portion of my project time. After getting the right skill set I will dive into the making of the project. At that time I will have the skillset necessary to full fill my above mentioned objectives that are born out of the above mentioned motivation. 
 
