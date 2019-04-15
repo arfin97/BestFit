@@ -43,13 +43,13 @@ The first steps to build this site will be to get accustomed with the technology
 
 ## Technology
 #### Front End
--1.	HTML & CSS
--2.	BootStrap
--3.	JQuery
+- 1.	HTML & CSS
+- 2.	BootStrap
+- 3.	JQuery
 
 #### Back End
--1. Django
--2. SQLite
+- 1. Django
+- 2. SQLite
 
 # Outcome
 The outcome of this project will be a website all people can use to get information on fitness. The will also be able to use this site to get motivated and to track or calculate their necessities about fitness.
