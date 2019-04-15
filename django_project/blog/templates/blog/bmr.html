@@ -1,0 +1,68 @@
+{% extends "blog/base.html" %}
+{% block content %}
+<div class="tools-details">
+<h1>The Basal Metabolic Rate</h1>
+<p>
+  The Basal Metabolic Rate (BMR) Calculator estimates your basal metabolic rate—the amount of energy expended while at rest in a neutrally temperate environment, and in a post-absorptive state (meaning that the digestive system is inactive, which requires about 12 hours of fasting).
+</p>
+
+<form>
+  <div class="form-group">
+    
+    Age:<br>
+    <input class="form-control" type="number" id="age" value="20"><br>
+    Height:<br>
+    <input class="form-control" type="number" id="height" value="180"><br>
+    Weight:<br>
+    <input class="form-control" type="number" id="weigth" value="80"><br>
+    <input type="radio" id="gender" name="gender" value="masc" checked> Male<br>
+    <input type="radio" id="gender" name="gender" value="fem"> Female<br>
+  </div>
+
+<button class="btn btn-primary" id="bmr" type="button">Calculate</button>
+
+  
+</form>
+
+
+
+
+
+<h1>Your BMR is: <span id="lblResult">?</span></h1>
+        
+        <h2>This means you are: <span id="comment"> Awesome </span> </h2> 
+  
+  <script>
+var bmr;
+
+
+    
+function calc() {
+  var age = document.getElementById("age").value;
+  var gender = document.getElementById("gender").value;
+  var height = document.getElementById("height").value;
+  var weigth = document.getElementById("weigth").value;
+  if (gender == "masc") {
+  bmr = 66.5 + ( 13.75 * weigth ) + ( 5.003 * height ) - ( 6.755 * age );
+  }
+  else {
+  bmr = 655.1 + ( 9.563 * weigth ) + ( 1.850 * height ) - ( 4.676 * age );
+  } 
+}
+
+    
+    
+
+document.getElementById("bmr").addEventListener("click", function() {
+  calc();
+  document.getElementById('lblResult').innerHTML = bmr;
+
+})
+
+ 
+    
+
+</script>
+ </div>
+ 
+{% endblock %}
